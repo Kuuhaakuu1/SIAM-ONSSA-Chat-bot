@@ -25,6 +25,9 @@ with st.sidebar:
     add_vertical_space(5)
     st.write('تم إنشاؤه من قبل فريق الذكاء الاصطناعي للقطب الرقمي')
     st.image("./assets/logo-large-pole-digital-light.png")
+st.image("./assets/IAV.png")
+st.image("./assets/ONCA.png")
+st.image("./assets/ONSSA.png")
 st.title('إكتشف المساﻋﺪات الماﻟﻴﺔ ﻟﻠﺪوﻟﺔ ﻟﺘﺸﺠﻴﻊ اﻻﺳﺘﺜﻤﺎرات في اﻟﻘﻄﺎع اﻟﻔﻼﺣﻲ')
 
 
