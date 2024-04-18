@@ -1,5 +1,6 @@
 import os.path
 import os
+from tkinter import Image
 import streamlit as st
 from streamlit_extras.add_vertical_space import add_vertical_space 
 os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
@@ -25,9 +26,13 @@ with st.sidebar:
     add_vertical_space(5)
     st.write('تم إنشاؤه من قبل فريق الذكاء الاصطناعي للقطب الرقمي')
     st.image("./assets/logo-large-pole-digital-light.png")
-st.image("./assets/IAV.png", width=50)
-st.image("./assets/ONCA.png", width=50)
-st.image("./assets/ONSSA.png", width=50)
+
+col1, col2, col3, col4, col5 = st.columns([0.5,0.8,0.8,0.8,5])
+col1.image("./assets/logo-large-pole-digital-light.png",  width=117)
+col3.image("./assets/IAV_White.png", width=50)
+col4.image("./assets/ONCA1 (Custom).png", width=50)
+col5.image("./assets/ONSSA (Custom).png", width=50)
+
 st.title('إكتشف المساﻋﺪات الماﻟﻴﺔ ﻟﻠﺪوﻟﺔ ﻟﺘﺸﺠﻴﻊ اﻻﺳﺘﺜﻤﺎرات في اﻟﻘﻄﺎع اﻟﻔﻼﺣﻲ')
 
 
